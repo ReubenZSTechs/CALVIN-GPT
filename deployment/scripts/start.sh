@@ -2,7 +2,7 @@
 
 echo "Starting full LLM system..."
 
-docker-compose up -d --build
+docker compose up --build
 
 echo "System running:"
 echo "Frontend: http://localhost:8501"
